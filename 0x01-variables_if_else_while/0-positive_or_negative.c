@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Entry point 
- * Get random number
+ *
  * Return: 0
  */
 int main(void)
