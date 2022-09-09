@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for funtion main goes there */
+/**
+ * main - Entry point 
+ * Get random number
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
