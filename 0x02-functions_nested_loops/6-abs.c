@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _abs - return abs
+ * _abs - check code
  * @n : number to check
- * Retun: 0 
+ * Return: 0 or 1
  */
 int _abs(int n)
 {
