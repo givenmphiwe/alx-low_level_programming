@@ -7,6 +7,6 @@
  */
 int _isalpha(int alpha)
 {
-	return ((alpha >= 97 && alpha <= 122 || (alpha >= 65 && alpha <= 90));
+	return ((alpha >= 97 && alpha <= 122) || (alpha >= 65 && alpha <= 90));
 }
 
