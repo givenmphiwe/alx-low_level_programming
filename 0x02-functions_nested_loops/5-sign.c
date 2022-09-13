@@ -5,16 +5,16 @@
  * @number : number to check
  * Return: 0 or 1
  */
-int  print_sign(int number)
+int  print_sign(int n)
 {
 	int test;
 
-	if (number > 0)
+	if (n > 0)
 	{
 		test = 1;
 		_putchar('+');
 	}
-	else if (number == 0)
+	else if (n == 0)
 	{
 		test = 0;
 		_putchar('0');

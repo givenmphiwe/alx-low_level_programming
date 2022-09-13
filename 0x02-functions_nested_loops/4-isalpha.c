@@ -5,8 +5,8 @@
  * @alpha : variable to check
  * Return: 0 or 1
  */
-int _isalpha(int alpha)
+int _isalpha(int c)
 {
-	return ((alpha >= 97 && alpha <= 122) || (alpha >= 65 && alpha <= 90));
+	return ((c >= 97 && c <= 122) || (c >= 65 && c <= 90));
 }
 
