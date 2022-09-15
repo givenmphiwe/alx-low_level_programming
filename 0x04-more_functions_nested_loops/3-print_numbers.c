@@ -2,7 +2,6 @@
 
 /**
  * print_numbers - check the code
- * @i: hold number
  * Return: 0 Always (Success)
  */
 void print_numbers(void)
@@ -15,5 +14,4 @@ void print_numbers(void)
 		i++;
 	}
 	_putchar('\n');
-	
 }
