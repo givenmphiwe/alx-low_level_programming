@@ -10,7 +10,7 @@ char *cap_string(char *str)
 {
 	char sep[] = ",\t;\n; .!?\"(){}";
 	int flag, i, ii;
-	
+
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		flag = 0;
@@ -19,7 +19,7 @@ char *cap_string(char *str)
 		{
 			flag = 1;
 		}
-		else{
+		else
 			for (ii = 0; sep[ii] != '\0'; ii++)
 			{
 				if (str[i - 1] == sep[ii])
@@ -28,7 +28,6 @@ char *cap_string(char *str)
 					break;
 				}
 			}
-		}
 		if (flag == 1)
 		{
 			if (str[i] <= 'z' && str[i] >= 'a')
