@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * factoral - finds factorial
+ * factorial - finds factorial
  * @n: int
  * Return: int
  */
 
-int factoral(int n)
+int factorial(int n)
 {
 	if (n < 0)
 	{
@@ -17,5 +17,5 @@ int factoral(int n)
 		return (1);
 	}
 
-	return (n * factoral(n - 1));
+	return (n * factorial(n - 1));
 }
