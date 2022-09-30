@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the number 
+ * main - prints the number
  * @argc: int
  * @argv: list
  * Return: 0.
